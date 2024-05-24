@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat, sans-serif;
+  background-color: #252525;
+  overflow-y: auto;
+}
+
+nav {
+  background: #535353;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logoimg {
+  width: 98px;
+  height: 66px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 10px;
+}
+
+a.active, a:hover {
+  background: #9b9b9b;
+  transition: .5s;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: row;
+    height: auto;
+    padding: 10px;
+  }
+
+  .logoimg {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  nav ul li {
+    line-height: initial;
+  }
+}
+
+.title {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 15%;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #000000;
+}
+
+.appform-container {
+  max-width: 600px;
+  margin: 180px auto 50px;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #535353;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.input-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 10px);
+}
+
+.input-field input,
+.input-field select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #9b9b9b;
+  font-size: 16px;
+  color: #000000;
+}
+
+.input-field input[type="file"] {
+  padding: 3px;
+  display: flex;
+  width: calc(212% - 10px);
+}
+
+.job-role {
+  display: flex;
+  width: calc(212% - 10px);
+}
+.submit-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5722;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #e64a19;
+}
+
+.icontext {
+  position: fixed;
+  margin: auto;
+  right: 150px;
+  bottom: 18px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.instalogo, .xlogo, .fblogo {
+  position: fixed;
+  margin: auto;
+  width: 40px;
+  height: auto;
+}
+
+.instalogo {
+  right: 5px;
+  bottom: 10px;
+}
+
+.fblogo {
+  right: 50px;
+  bottom: 10px;
+}
+
+.xlogo {
+  right: 95px;
+  bottom: 10px;
+  width: 40px;
+}

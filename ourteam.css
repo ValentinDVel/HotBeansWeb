@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat, sans-serif;
+  background-color: #252525;
+}
+
+nav {
+  background: #535353;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.logoimg {
+  width: 98px;
+  height: 66px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+nav ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 10px;
+}
+a.active, a:hover {
+  background: #9b9b9b;
+  transition: .5s;
+  border-radius: 4px;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: row;
+    height: auto;
+    padding: 10px;
+  }
+  .logoimg {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  nav ul {
+    flex-direction: row;
+    gap: 5px;
+  }
+  nav ul li {
+    line-height: initial;
+  }
+}
+
+.title {
+  position: fixed;
+  width:100%;
+  text-align: center;
+  top: 15%;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #000000;
+}
+
+.subtitle {
+  position: fixed;
+  width:100%;
+  text-align: center;
+  top: 22%;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #000000;
+}
+
+.employee1 {
+  position: fixed;
+  margin: auto;
+  top: 40%;
+  left: 50%;
+ transform: translate(-250%,-50%);
+  width: 215px;
+  height: auto;
+  border-style: groove;
+  border-width: 5px;
+}
+
+.employee1hdr {
+  color: #ffffff;
+  font-size: 15px;
+  position: fixed;
+  margin: auto;
+  top: 53%;
+  left: 50%;
+ transform: translate(-235%,-50%);
+  width: 215px;
+  height: auto;
+}
+
+.employee2 {
+  position: fixed;
+  margin: auto;
+  top: 40%;
+  left: 50%;
+  transform: translate(150%,-50%);
+  width: 215px;
+  height: auto;
+  border-style: groove;
+  border-width: 5px;
+}
+
+.employee2hdr {
+  color: #ffffff;
+  font-size: 15px;
+  position: fixed;
+  margin: auto;
+  top: 54%;
+  left: 50%;
+ transform: translate(165%,-50%);
+  width: 215px;
+  height: auto;
+}
+
+.employee3 {
+  position: fixed;
+  margin: auto;
+  top: 40%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+  width: 215px;
+  height: auto;
+  border-style: groove;
+  border-width: 5px;
+}
+
+.employee3hdr {
+  color: #ffffff;
+  font-size: 15px;
+  position: fixed;
+  margin: auto;
+  top: 53%;
+  left: 50%;
+ transform: translate(-30%,-50%);
+  width: 215px;
+  height: auto;
+}
+
+.employee4 {
+  position: fixed;
+  margin: auto;
+  top: 70%;
+  left: 50%;
+ transform: translate(-250%,-50%);
+  width: 215px;
+  height: auto;
+  border-style: groove;
+  border-width: 5px;
+}
+
+.employee4hdr {
+  color: #ffffff;
+  font-size: 15px;
+  position: fixed;
+  margin: auto;
+  top: 84%;
+  left: 49.5%;
+ transform: translate(-235%,-50%);
+  width: 215px;
+  height: auto;
+}
+
+.employee5 {
+  position: fixed;
+  margin: auto;
+  top: 70%;
+  left: 50%;
+ transform: translate(-50%,-50%);
+  width: 215px;
+  height: auto;
+  border-style: groove;
+  border-width: 5px;
+}
+
+.employee5hdr {
+  color: #ffffff;
+  font-size: 15px;
+  position: fixed;
+  margin: auto;
+  top: 84%;
+  left: 50%;
+ transform: translate(-40%,-50%);
+  width: 215px;
+  height: auto;
+}
+
+.employee6 {
+  position: fixed;
+  margin: auto;
+  top: 70%;
+  left: 50%;
+  transform: translate(150%,-50%);
+  width: 215px;
+  height: auto;
+  border-style: groove;
+  border-width: 5px;
+}
+
+.employee6hdr {
+  color: #ffffff;
+  font-size: 15px;
+  position: fixed;
+  margin: auto;
+  top: 84%;
+  left: 50%;
+ transform: translate(153%,-50%);
+  width: 215px;
+  height: auto;
+}
+
+.icontext {
+  position: fixed;
+  margin: auto;
+  right: 150px;
+  bottom: 18px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.instalogo {
+  position: fixed;
+  margin: auto;
+  width: 40px;
+  height: auto;
+  right: 5px;
+  bottom: 10px;
+}
+
+.fblogo {
+  position: fixed;
+  margin: auto;
+  width: 40px;
+  height: auto;
+  right: 50px;
+  bottom: 10px;
+}
+
+.xlogo {
+  position: fixed;
+  margin: auto;
+  width: 62px;
+  height: auto;
+  right: 85px;
+  bottom: 6px;
+}
